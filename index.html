@@ -35,7 +35,7 @@
       <!-- Font Awesome CDN -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="font-manrope">
+<body class="font-manrope ">
     <header class=" lg:mx-32  ">
       <!-- Nav Bar -->
       <nav>
@@ -89,6 +89,16 @@
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
+            <!-- text -->
+            <div class="md:flex md:justify-end mt-5 mx-5 md:mx-0 lg:mx-0 ">
+              <div
+                  class="bg-black text-white border-y-2 lg:max-w-2xl rounded-xl p-8 lg:absolute transform lg:-translate-y-72 lg:mr-24 ">
+                  <h3 class="text-lg lg:text-2xl pb-4 font-extrabold">Meet all the heroes from the field</h3>
+                  <p class="text-sm lg:text-base">Discover the field's unsung heroes in one place – where passion
+                      meets prowess. Unveil the stories of
+                      every hero, united by the game.</p>
+                      </div>
+            <!-- text -->
           </div> 
         </div>
       </section>
@@ -308,7 +318,7 @@
       <!-- New Product Section End -->
 
       <!-- Clients Question Section Start  -->
-      <section class="lg:my-14 lg:container text-black">
+      <section class="lg:my-14 my-5 lg:container text-black">
         <div class="text-center my-16 lg:my-32 mx-3">
           <h1 class="text-2xl lg:text-4xl font-extrabold mb-6">
             Clients Question
@@ -391,9 +401,9 @@
         <!-- FAQ -->
       </section>
       <!-- Clients Question Section end  -->
-
+      <hr class=" border-dotted w-[20rem] lg:w-[73rem]">
       <!-- Get In Touch Section -->
-      <section class="lg:my-14 lg:container text-black">
+      <section class="lg:my-14 my-4 lg:container text-black">
         <!-- Get In Touch Head -->
         <div class="text-center my-16 lg:my-32 mx-3">
           <h1 class="text-2xl lg:text-4xl font-extrabold mb-6">
@@ -404,43 +414,79 @@
             <br>
              dolor. Purus urna in sit nullam proin. 
           </p>
-        <!-- Master Div  -->
-                  <!-- 1st Div -->
-                  <div class="grid-cols-3 lg:my-20 my-10 gap-10">
-                    <!-- 1....1 -->
-                    <div class="w-[23.375rem] h-[13.5rem] rounded-2xl mb-10  bg-green-100 "> 
-                      <img class="mx-8 pt-8" src="Images/Group 1171275317.png" alt="">
-                      <p class="text-start mx-8 mt-10 font-thin text-[ #131318 ]">Phone Number : </p>
-                        <h5 class="text-start mx-8 mt-2 font-medium ">(+62) 123-321-543 </h5>
-                    </div>
-                    <!-- 1.....2 -->
-                    <div class="w-[23.375rem] h-[13.5rem] rounded-2xl bg-yellow-100 mb-10">
-                       <img class="mx-8 pt-8" src="Images/Group 1171275318.png" alt="">
-                       <p class="text-start mx-8 mt-10 font-thin text-[ #131318 ]">Email : </p>
-                        <h5 class="text-start mx-8 mt-2 font-medium ">hockeys@support.com</h5>
-                    </div>
-                      </div>
-                    <!-- 1......3 -->
-                    <div  class="w-[23.375rem] h-[13.5rem] rounded-2xl bg-cyan-100 mb-10" >
-                      <img class="mx-8 pt-8" src="Images/Group 1171275321.png" alt="">
-                      <p class="text-start mx-8 mt-10 font-thin text-[ #131318 ]">Location : </p>
-                        <h5 class="text-start mx-8 mt-2 font-medium ">152/1 Mohakhali Wireless Gate</h5>
-                    </div>
-                    </div>
-                  </div>
-                  <!-- 1st Div -->
-                  <!-- 2nd div where 2 div  -->
-                  <div>
-                    <div></div>
-                    <div></div>
-                  </div>
-                  <!-- 2nd div where 2 div  -->
-        <!-- Master Div  -->
         </div>
         <!-- Get In Touch Head -->
+        <div class="grid grid-cols-1 my-5 lg:grid-cols-3 gap-9">
+          <div class="lg:space-y-6 space-y-4  lg:border-2 rounded-2xl p-6 lg:md:p-12 lg:p-12">
+              <div class="bg-[#6b8c3619] border-none rounded-2xl w-[20rem] p-7">
+                  <img src="Images/Group 1171275317.png" alt="">
+                  <p class="pt-4">
+                      Phone Number : <br>
+                      <span class="pt-4 font-extrabold">(+62)123321543</span>
+                  </p>
+              </div>
+              <div>
+                  <div class="bg-[#FDDD5F19] border-none w-[20rem] rounded-2xl p-7">
+                      <img src="Images/Group 1171275318.png" alt="">
+                      <p class="pt-4">
+                          Email :  <br>
+                          <span class="pt-4 font-extrabold"> hockeys@support.com </span>
+                      </p>
+                  </div>
+              </div>
+              <div>
+                  <div class="bg-[#629cf333] w-[20rem] border-none rounded-2xl p-7">
+                      <img src="Images/Group 1171275321.png" alt="">
+                      <p class="pt-4">
+                          Location : <br>
+                          <span class="pt-4 font-extrabold">152/1 Mohakhali Wireless Gate</span>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="lg:col-span-2 mx-5">
+              <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                  <div class="mb-6">
+                      <label class="font-extrabold" for="">Your Name</label><br>
+                  <input type="text" placeholder="Enter Your full Name" class="bg-[#0d0d1213] mt-2 input input-bordered w-full" required />
+                  </div>
+                  <div>
+                      <label class="font-extrabold" for="">Your Email</label><br>
+                  <input type="email" placeholder="Enter Your Email" class="bg-[#0d0d1213] mt-2 input input-bordered w-full" required />
+                  </div>
+              </div>
+              <div class="font-extrabold" class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+                  <div class="mb-6">
+                      <label for="">Subject</label><br>
+                  <input type="text" placeholder="Enter Your Subject" class="bg-[#0d0d1213] mt-2 input input-bordered w-full" required />
+                  </div>
+                  <div>
+                      <label class="font-extrabold" for="">Phone Number</label><br>
+                  <input type="number" placeholder="Enter Your Phone Number" class="bg-[#0d0d1213] mt-2 input input-bordered w-full" required />
+                  </div>
+              </div>
 
-
+              <div class="mb-6 mt-6 grid gap-6 grid-cols-1">
+                  <label class="font-extrabold" for="">Message</label>
+                  <textarea class="bg-[#0d0d1213] w-full textarea textarea-bordered" rows="7" placeholder="Write your message"></textarea>
+              </div>
+              <button class="mt-5 w-full btn bg-primary-color text-white hover:bg-hover-bg">Send Message</button>
+          </div>
+      </div>
       </section>
+      <!-- Social Media -->
+      <section>
+        <div class="bg-[#1313180B] border-none rounded-2xl mb-28 mt-12 py-9 text-center mx-5 items-center">
+          <h3 class="text-2xl font-extrabold mb-6">Social Media</h3>
+          <div class="space-x-4 text-2xl">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+          </div>
+      </div>
+      </section>
+      <!-- Social Media -->
       <!-- Get In Touch Section -->
     </main>
       <!-- footer -->
